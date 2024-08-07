@@ -10,7 +10,11 @@
         <p>Digite seu nome:</p>
         <input type="text" name="nome" placeholder="Nome completo" required>
         <p>Digite seu e-mail</p>
-        <input type="email" name="email" placeholder="E-mail" value="@escola.pr.gov.br">
+        <form action="https://formspree.io/f/{form_id}" method="post">
+            <label for="email">Seu e-mail</label>
+            <input name="Email" id="email" type="email">
+            <button type="submit">Submit</button>
+          </form
         <p>Digite seu telefone</p>
         <input type="number" name="telefone" value="+55"> 
         <br>
@@ -30,12 +34,7 @@
         <input type="checkbox" name="novidade" id=""> Aceito vender minha alma para satan
         <button type="submit"> enviar </button>
         <button type="reset"> Apagar Formulário</button>
-        <br>
-        <form action="https://formspree.io/f/{form_id}" method="post">
-            <label for="email">Your Email</label>
-            <input name="Email" id="email" type="email">
-            <button type="submit">Submit</button>
-        </form>
+        
         
 
     </form>
